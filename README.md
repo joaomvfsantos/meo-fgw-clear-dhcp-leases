@@ -1,7 +1,6 @@
 # MEO Fibergateway Clear DHCP Leases
 
-The MEO FiberGateway (FGW) routes keeps a list of DHCP leases for a long time, even for devices that are no longer connected
-for a long time. There is no way to clear the leases via the Web UI. So this script logs in via TELNET and 
+The MEO FiberGateway (FGW) AIO router keeps a list of DHCP leases for a long time, even for devices that are no longer connected. There is no way to clear the leases via the Web UI. This script logs-in via TELNET and 
 runs `clear-leases` command to clear the list.
 
 ## Requirements
