@@ -1,0 +1,15 @@
+{
+  "name": "meo-fgw-clear-dhcp-leases",
+  "version": "1.0.0",
+  "description": "Clears the MEO FiberGateway DHCP leases via telnet",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Santos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
