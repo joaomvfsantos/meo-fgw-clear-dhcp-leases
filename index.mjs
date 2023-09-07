@@ -1,5 +1,4 @@
 import { spawn } from 'node:child_process';
-import 'dotenv/config';
 
 const ls = spawn('telnet', [process.env.FGW_HOST]);
 
